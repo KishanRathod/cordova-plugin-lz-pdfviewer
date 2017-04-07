@@ -18,8 +18,6 @@ The plugin creates the object `window.plugins.PdfViewer` with one method `showPd
 `filename` is the name of the PDF file, `title` is the title for the PDF file (only for iPad) and isAllowToShare is to make Print, Email and Export button visible and invisiable.
 
 
-A full get example could be:
+A full showpdf example could be:
 
-    window.plugins.applicationPreferences.get('filename.pdf', 'Document Title', true);
-
-NOTE: The preference must exist in a settings bundle and Root.plist in your project.
+    window.plugins.pdfviewer.showpdf('filename.pdf', 'Document Title', true);
