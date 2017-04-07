@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-lz-pdfviewer",
+  "version": "1.0.0",
+  "description": "Cordova plugin to view PDF files on iOS",
+  "cordova": {
+    "id": "cordova-plugin-lz-PdfViewer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KishanRathod/cordova-plugin-lz-pdfviewer"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "pdf",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Kishan Rathod",
+  "license": "MIT"
+}
